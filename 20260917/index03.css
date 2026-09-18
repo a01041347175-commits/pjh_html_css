@@ -1,0 +1,15 @@
+p{
+    width: 300px;
+    height: 300px;
+    background-color: #ff0;
+    /*padding: 50px;*/
+    /*padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;*/
+   /* padding: 50px 50px 10px 10px;*/
+   /* padding: 50px 10px 50px 10px = padding: 50px 10px;*/
+   /*padding: 50px 10px;*/
+   /*padding: 10px 50px 20px; -> 위 오른쪽 아래 까지 만 작성되면 비어있는 왼쪽은 자동으로 오른쪽과 같은 값*/
+}

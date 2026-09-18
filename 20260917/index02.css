@@ -1,0 +1,38 @@
+/*
+6. 자손/후손 선택자
+*/
+/* 후손 선택자 : 기준 태그 안에 있는 지정한 모든 후손을 찾는다*/
+div p{
+    color: #ff0000;
+}
+/* 자손선택자 */
+div >p{
+    color: #00ffff;
+}
+
+/* 7. 동위 선택자 : */
+h2 + p{
+    color: #0000ff;
+}
+h2 ~ p{
+    font-weight: bold;
+}
+/* 8. 반응 선택자 */
+a{
+    text-decoration: none;
+    color: #242424;
+}
+
+a:hover{text-decoration: underline;}
+
+input{
+    width: 300px;
+    padding: 10px;
+    color: #ff0000;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+input:focus{
+    background-color: #43c090;
+}

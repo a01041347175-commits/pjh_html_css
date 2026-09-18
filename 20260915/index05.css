@@ -1,0 +1,25 @@
+/*
+선택자1.전체선택자
+기본 문법 : 선택자 {속성: 속성값;}
+*/
+
+*{
+    color: #5318db; /*폰트색상 */
+    border: 1px solid #0000ff;  /* 테두리*/
+}
+
+/*
+선택자2. 태그 선택자
+*/
+h3{
+    color: #00ff00;
+    border: 0px;
+}
+p{
+    color: #0000ff;
+    border: 1px dashed #0000ff;
+}
+b{
+    color: #f12bd7;
+    background-color: #000000;
+}

@@ -1,0 +1,41 @@
+p{
+    color: #ff00ff;
+}
+
+.p1{
+    color: #077798;
+}
+
+.p11{
+    color: #000;
+}
+
+/*#pp1{
+    color: #00ff88;
+}*/
+input{
+    color: #ff0000;
+}
+input[type='text']
+{
+    color: #0000ff;
+    width: 300px;
+}
+input[type='password']
+{
+    width: 200px;
+}
+p[id]{
+    color: #ff0000;
+    font-size: 2em;
+}
+input.idpw{border: 1px solid #ccc;
+outline: none;
+width: 300px;
+padding: 20px;
+border-radius: 10px;}
+/*
+선택자 6. 자손, 후손 선택자
+기준 태그로 부터 바로 직계 : 자손
+기준 태그로 부터 직계 포함 아래 태그들 : 후손
+*/
