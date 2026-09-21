@@ -138,3 +138,8 @@
     max-width: 90px;
     vertical-align: middle;
 }
+
+#wrap div.office > p:nth-child(2) span {
+    color: #f00;
+    font-weight: bold;
+}
