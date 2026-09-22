@@ -1,0 +1,82 @@
+#wrap {
+    background-color: rgb(0, 0, 255);
+    width: 600px;
+    margin: 10px auto;
+    position: relative;
+}
+
+#wrap div.name {
+    color: #06e3f3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 50px;
+}
+
+#wrap div.who {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 10px 0 20px 0
+}
+
+#wrap div.img {
+    margin: 10px auto;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#wrap div.img ul li:nth-child(1) {
+      border-right: 1px dashed #dadada;
+}
+
+#wrap div.img ul li:nth-child(1) p:nth-child(1) {
+    font-size: 5em;
+    text-align: center;
+    margin: 50px 30px 30px 30px;
+    font-weight: bold;
+}
+
+#wrap div.img ul li:nth-child(1) p:nth-child(2) {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0 30px 50px 30px;
+}
+
+#wrap div.img ul li:nth-child(2) {
+    margin: 100px 50px 100px 60px;
+}
+
+#wrap div.masage {
+    text-align: center;
+    font-size: 1.1em;
+    color: #dadada;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#wrap div.button1  {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    top: 250px; left: 50px;
+}
+
+#wrap div.button2  {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    top: 250px; left: 500px;
+}
